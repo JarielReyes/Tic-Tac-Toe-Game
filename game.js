@@ -36,7 +36,11 @@ function checkWinO(){
 }
 
 function checkTie() {
-   
+   if ($(".X").length + $(".O").length === 9){
+        tie++
+        $("#tie").text(tie)
+        clear()
+   }
 }
 
 function clear() {
