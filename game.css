@@ -19,9 +19,3 @@ h1, h3 {
 .col-1 , .col-2 {
     border-right: 5px solid black;
 }
-
-.board{
-    background-image: url("https://c.tenor.com/ASw9q7RhC5IAAAAC/crab-safe.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
